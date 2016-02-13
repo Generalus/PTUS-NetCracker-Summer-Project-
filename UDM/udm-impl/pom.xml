@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>udm-parent</artifactId>
+        <groupId>org.aksoftware.edu</groupId>
+        <version>0.1-SNAPSHOT</version>
+        <relativePath>../udm-parent/pom.xml</relativePath>
+    </parent>
+
+    <packaging>jar</packaging>
+    <artifactId>udm-impl</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.aksoftware.edu</groupId>
+            <artifactId>udm-api</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

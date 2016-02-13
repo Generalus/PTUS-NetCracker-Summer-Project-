@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>udm-parent</artifactId>
+        <groupId>org.aksoftware.edu</groupId>
+        <version>0.1-SNAPSHOT</version>
+        <relativePath>../udm-parent/pom.xml</relativePath>
+    </parent>
+
+    <packaging>jar</packaging>
+    <artifactId>udm-impl-jdbc</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.aksoftware.edu</groupId>
+            <artifactId>udm-api</artifactId>
+            <version>0.2-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.11.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>10.11.1.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Oct 19 00:50:36 MSK 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0150-7cee-cd17-00000726d858 
+on database directory memory:C:\Users\Никита\Desktop\Я\Java\Мои проекты\PTUS-repository\UDM\udm-impl-jpa\udm_db with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/%d0%9d%d0%b8%d0%ba%d0%b8%d1%82%d0%b0/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_40-b26
+user.dir=C:\Users\Никита\Desktop\Я\Java\Мои проекты\PTUS-repository\UDM\udm-impl-jpa
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

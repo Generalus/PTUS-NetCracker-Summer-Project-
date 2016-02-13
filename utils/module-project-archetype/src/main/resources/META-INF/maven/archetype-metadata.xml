@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="module-project"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modules>
+    <module id="${rootArtifactId}-api" dir="__rootArtifactId__-api" name="${rootArtifactId}-api" />
+    <module id="${rootArtifactId}-impl" dir="__rootArtifactId__-impl" name="${rootArtifactId}-impl" />
+    <module id="${rootArtifactId}-parent" dir="__rootArtifactId__-parent" name="${rootArtifactId}-parent" />
+  </modules>
+
+  <fileSets>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-api/src/main/java</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-api/src/main/resources</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-api/src/test/java</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-api/src/test/resources</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-impl/src/main/java</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-impl/src/main/resources</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-impl/src/test/java</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>__rootArtifactId__-impl/src/test/resources</directory>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
